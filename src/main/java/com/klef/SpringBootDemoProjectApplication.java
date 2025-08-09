@@ -6,10 +6,8 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 @SpringBootApplication
 public class SpringBootDemoProjectApplication extends SpringBootServletInitializer {
-
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootDemoProjectApplication.class, args);
 		System.out.println("hello, devops");
 	}
-
 }
